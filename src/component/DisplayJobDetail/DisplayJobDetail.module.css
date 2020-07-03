@@ -1,0 +1,43 @@
+.DisplayJobDetail{
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    box-sizing: border-box;
+}
+.ContentWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.Content{
+    text-align: left;
+    display: block;
+    background-color: white;
+    border: 1px 0 #ccc;
+    width: 60%;
+    padding: 10px 10px 10px 10px;
+}
+.Content1{
+    display: block;
+    background-color: white;
+    border: 1px 0 #ccc;
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+}
+
+.Button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    left: 0px;
+}
